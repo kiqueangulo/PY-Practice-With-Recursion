@@ -25,7 +25,7 @@ def num_within(number, start, end):
 
 # Prints out the first n rows of Pascal's triangle
 def pascal(n):
-    if n >= 0 and n <= 5:
+    if n > 0 and n <= 5:
         for i in range(n):
             print(' '*(n - i), end='')
 
